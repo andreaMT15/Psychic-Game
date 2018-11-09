@@ -1,7 +1,13 @@
-var letter = ["a", "e", "i", "o", "u"];
-    
-    var wins = 0;
-    var losses = 0;
+//create a variable with the letters that the user will guess
 
-    document.onkeyup = function(event) {
-    var randNum = Math.floor(Math.random() * (2- 0 +1))+ 0;
+var letter = ["a", "e", "i", "o", "u"];
+
+//have user input the letter that they are guessing
+
+//check if letter matches one of the letters in the array
+
+//If it does, alert the user that they are correct and increase the score
+
+//If it doesn't alert the user that they're wrong, increase the losses, and add a letter to the letters guessed
+
+//Have user try again

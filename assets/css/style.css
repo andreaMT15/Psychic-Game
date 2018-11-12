@@ -1,0 +1,21 @@
+*{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 3em;
+    line-height: 4em;
+    text-align: center;
+
+}
+
+.body-text{
+    font-size: 2em;
+    line-height: 3em;
+}

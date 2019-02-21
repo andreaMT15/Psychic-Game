@@ -52,7 +52,7 @@ document.onkeyup = function(event) {
     resetLetters.textContent = "Your Guesses So Far: ";
   }
   //If user letter does not = computer letter and cont is greater than 0 decrease count by 1 until it reaches 0.
-  else if (userInput !== compLetter && count > 0) {
+  else if (userInput !== compLetter && count > 1) {
     count = count - 1;
     userAttempts.textContent = "Guesses Left: " + count;
     userLetterInput.append(userInput, ", ");
